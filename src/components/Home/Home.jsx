@@ -25,23 +25,6 @@ useEffect( ()=>{
     Est quae ullam eos tempore voluptatum maiores dolores cum nam, qui molestiae facere laboriosam numquam laborum."
     height="100"
     />
-
-    <div className="container text-center">
-      <h2>All Movies</h2>
-      <div className="row">
-      {all.map( (Allmovie, index)=>{
-        return (
-            <div className="col-md-3">
-              <div className="card mb-5">
-                <img src={`https://image.tmdb.org/t/p/w500/${Allmovie.poster_path}`} alt={Allmovie.overview} />
-                
-                <p>Votes {Allmovie.vote_average}</p>
-              </div>
-            </div>
-        )
-      } )}
-      </div>
-    </div>
     </div>
 
     

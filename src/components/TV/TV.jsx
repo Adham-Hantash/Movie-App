@@ -23,7 +23,7 @@ export default function TV() {
     />
 
     <div className="container text-center">
-      <h2>Trending TV Shows</h2>
+      <h2 className='mt-4 mb-4'>Trending TV Shows</h2>
       <div className="row">
       {tv.map( (tvs, index)=>{
         return (

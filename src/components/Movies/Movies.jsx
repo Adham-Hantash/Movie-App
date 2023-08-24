@@ -23,7 +23,7 @@ export default function Movies() {
     />
 
     <div className="container text-center">
-      <h2>Trending This Week</h2>
+      <h2 className='mt-4 mb-4'>Trending This Week</h2>
       <div className="row">
       {movies.map( (movie, index)=>{
         return (
